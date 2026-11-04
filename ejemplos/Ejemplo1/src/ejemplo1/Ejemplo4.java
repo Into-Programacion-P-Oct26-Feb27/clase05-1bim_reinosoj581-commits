@@ -24,7 +24,7 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine();//se usa siempre que regresamos de un double a un string
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
