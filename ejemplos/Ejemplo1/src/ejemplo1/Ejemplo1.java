@@ -30,7 +30,7 @@ public class Ejemplo1 {
         
         if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\n", promedio); 
         }
             
         if (promedio == limiteNotas) {
